@@ -4,15 +4,12 @@
  * Never make a promise you wont keep
 */
 
-export default function getFullResponseFromAPI(success) {
-  return new Promise((res, rej) => {
-    if (success) {
-      res({
-        status: 200,
-        body: 'Success',
-      });
-    } else {
-      rej(new Error('The fake API is not working currently'));
-    }
-  });
+export default function getFullResponseFromAPI(value) {
+  if (value === true) {
+    return Promise.resolve({
+      status: 200,
+      body: 'Success',
+    });
+  }
+  return Promise.reject(new Error('The fake API is not working currently'));
 }
