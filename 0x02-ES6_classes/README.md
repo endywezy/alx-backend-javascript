@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Curriculum
 Short Specializations
@@ -584,3 +585,6 @@ Invite & Earn
 
 
 
+=======
+Readme.md
+>>>>>>> e1c6983fdcee36e237f574e50cb237bd92e8c877
