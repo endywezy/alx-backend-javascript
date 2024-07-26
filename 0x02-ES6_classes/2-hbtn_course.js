@@ -14,7 +14,6 @@ export default class HolbertonCourse {
     this._students = students;
   }
 
-  /* define the getters for the class */
   get name() {
     return this._name;
   }
@@ -27,10 +26,6 @@ export default class HolbertonCourse {
     return this._students;
   }
 
-  /*
-    * Settters used to trip me up,
-    * or should I say, set me up
-  */
   set name(newName) {
     if (typeof newName !== 'string') {
       throw new TypeError('Name must be a string');
