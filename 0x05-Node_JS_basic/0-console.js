@@ -4,7 +4,7 @@
  * @author Endurance Ossai <https://github.com/endywezy>
  */
 const displayMessage = (msg) => {
-    console.log(msg);
-  };
-  
-  module.exports = displayMessage;
+  console.log(msg);
+};
+
+module.exports = displayMessage;
